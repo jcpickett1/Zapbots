@@ -1,0 +1,9 @@
+{
+    "GroundedRadius": 0.3,
+    "GravityScale": 3,
+    "GlobalGravity": -9.81,
+    "GroundedGravity": 3,
+    "TerminalVelocity": 60,
+    "StepSmooth": 5,
+    "StepRange": 1
+}

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4526602103172698947}
   - component: {fileID: 4526602102332512672}
   - component: {fileID: 4526602102332512679}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Eyes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90,7 +90,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4526602103108973133}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CastPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 4526602103710405268}
   - component: {fileID: 4526602103710405270}
   - component: {fileID: 4526602104083325355}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -261,7 +261,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4122529541781777396}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -297,7 +297,7 @@ GameObject:
   - component: {fileID: 4526602104158277656}
   - component: {fileID: 4526602104158277657}
   - component: {fileID: 4526602104158277653}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DemonGrunt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -450,20 +450,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3562a59401e85fd4191d61047c62307c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _player: {fileID: 0}
-  _lastPlayerPosition: {fileID: 0}
-  _eyes: {fileID: 4526602103172698947}
-  _head: {fileID: 4122529541781777396}
-  _avatar: {fileID: 4526602104158277652}
-  _castPoint: {fileID: 4526602103108973133}
-  _navMeshAgent: {fileID: 4526602104158277656}
-  _myManager: {fileID: 4526602104083325355}
-  _aimRange: 12
-  _aimSpeed: 10
-  _findSpeed: 2
-  _navSpeed: 10
-  _hasAttention: 0
-  _isWalking: 0
-  _canShoot: 1
-  _spotted: 1
   _myProjectile: {fileID: 6488350678490077954, guid: c46975c9be7c1b14ab650b2b7a4240ee, type: 3}
+  Player: {fileID: 0}
+  LastPlayerPosition: {fileID: 0}
+  Eyes: {fileID: 0}
+  Head: {fileID: 0}
+  Avatar: {fileID: 0}
+  CastPoint: {fileID: 0}
+  NavMeshAgent: {fileID: 0}
+  MyManager: {fileID: 0}
+  AimRange: 0
+  AimSpeed: 0
+  FindSpeed: 0
+  NavSpeed: 0
+  MaxHealth: 0
+  CurrentHealth: 0
+  HasAttention: 0
+  IsWalking: 0
+  CanShoot: 1
+  Spotted: 1
+  Invisible:
+    serializedVersion: 2
+    m_Bits: 0

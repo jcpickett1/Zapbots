@@ -1,0 +1,34 @@
+{
+    "SpellsList": [
+        {
+            "Name": "Ice Knife",
+            "Damage": 10,
+            "Speed": 8,
+            "Element": "frost",
+            "SpellType": "ProjectileSpell",
+            "Filename": "ice-knife",
+            "RechargeTime": 0.66,
+            "Rotation": [ 0, -90, 90]
+        },
+        {
+            "Name": "Magic Missile",
+            "Damage": 100,
+            "Speed": 12,
+            "Element": "arcane",
+            "SpellType": "ProjectileSpell",
+            "Filename": "magic-missile",
+            "RechargeTime": 0.66,
+            "Rotation": [ 0, -90, 90]
+        },
+        {
+            "Name": "Fireball",
+            "Damage": 40,
+            "Speed": 10,
+            "Element": "fire",
+            "SpellType": "ProjectileSpell",
+            "Filename": "fireball",
+            "RechargeTime": 0.66,
+            "Rotation": [ 0, 0, 0]
+        }
+    ]
+}
