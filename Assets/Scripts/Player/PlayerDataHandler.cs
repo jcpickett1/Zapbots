@@ -9,18 +9,18 @@ public class PlayerDataHandler : MonoBehaviour
     private PlayerConstants _constants;
 
     // get stats
-    public float RunSpeed { get { return _stats.RunSpeed; } set { _stats.RunSpeed = value; }}
-    public float JumpForce { get { return _stats.JumpForce; } set { _stats.JumpForce = value; }}
     public float JumpTimeout { get { return _stats.JumpTimeout; } set { _stats.JumpTimeout = value; }}
+    public float JumpForce { get { return _stats.JumpForce; } set { _stats.JumpForce = value; }}
     public float MaxHealth { get { return _stats.MaxHealth; } set { _stats.MaxHealth = value; }}
     public float RegenRate { get { return _stats.RegenRate; } set { _stats.RegenRate = value; }}
+    public float RunSpeed { get { return _stats.RunSpeed; } set { _stats.RunSpeed = value; }}
 
     // get constants
-    public float GroundedRadius { get { return _constants.GroundedRadius; }}
-    public float GravityScale { get { return _constants.GravityScale; }}
-    public float GlobalGravity { get { return _constants.GlobalGravity; }}
-    public float GroundedGravity { get { return _constants.GroundedGravity; }}
     public float TerminalVelocity { get { return _constants.TerminalVelocity; }}
+    public float GroundedGravity { get { return _constants.GroundedGravity; }}
+    public float GroundedRadius { get { return _constants.GroundedRadius; }}
+    public float GlobalGravity { get { return _constants.GlobalGravity; }}
+    public float GravityScale { get { return _constants.GravityScale; }}
     public float StepSmooth { get { return _constants.StepSmooth; }}
     public float StepRange { get { return _constants.StepRange; }}
 

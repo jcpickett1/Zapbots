@@ -6,20 +6,20 @@ using UnityEngine;
 
 public class SpellGauntlet : MonoBehaviour
 {
-    [SerializeField] private Sprite _relaxedSprite;
-    [SerializeField] private Sprite _attackingSprite;
     [SerializeField] private SpriteRenderer _myRenderer;
+    [SerializeField] private Sprite _attackingSprite;
+    [SerializeField] private Sprite _relaxedSprite;
     [SerializeField] private bool _left = false;
 
-    private Transform _firingLine;
-    private PlayerStateMachine _player;
-    private SpellData[] _spells;
     private Dictionary<SpellData, GameObject> _spellBases = new Dictionary<SpellData, GameObject>();
+    private PlayerStateMachine _player;
+    private Transform _firingLine;
     private SpellData _selectedSpell;
-    private int _selectedIndex = 0;
-    private int _mouseButton;
+    private SpellData[] _spells;
     private bool _charged = true;
     private bool _canSwap = true;
+    private int _selectedIndex = 0;
+    private int _mouseButton;
 
     public SpellData[] GetSpells { get { return _spells; }}
     public int GetIndex { get { return _selectedIndex; }}

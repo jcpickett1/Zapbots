@@ -9,11 +9,11 @@ public class PlayerStateFactory
     public PlayerStateFactory(PlayerStateMachine currentContext)
     {
         _context = currentContext;
+        _states[State.Grounded] = new PlayerGroundedState(_context, this);
         _states[State.Idle] = new PlayerIdleState(_context, this);
         _states[State.Walk] = new PlayerWalkState(_context, this);
-        _states[State.Run] = new PlayerRunState(_context, this);
         _states[State.Jump] = new PlayerJumpState(_context, this);
-        _states[State.Grounded] = new PlayerGroundedState(_context, this);
+        _states[State.Run] = new PlayerRunState(_context, this);
     }
 
     public PlayerBaseState Idle(){

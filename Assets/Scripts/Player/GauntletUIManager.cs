@@ -6,13 +6,13 @@ using UnityEngine.UI;
 public class GauntletUIManager : MonoBehaviour
 {
     [SerializeField] private SpellGauntlet _myGauntlet;
-    [SerializeField] private Image _activeSprite;
     [SerializeField] private Image _previousSprite;
+    [SerializeField] private Image _activeSprite;
     [SerializeField] private Image _nextSprite;
 
-    private Sprite[] _sprites;
-    private SpellData[] _spells;
     private int _lastFrameIndex = 0;
+    private SpellData[] _spells;
+    private Sprite[] _sprites;
 
     // Start is called before the first frame update
     void Start()

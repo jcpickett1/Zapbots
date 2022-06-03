@@ -1,11 +1,11 @@
 [System.Serializable]
 public class PlayerStats
 {
-    public float RunSpeed;
-    public float JumpForce;
     public float JumpTimeout;
+    public float JumpForce;
     public float MaxHealth;
     public float RegenRate;
+    public float RunSpeed;
 
     public PlayerStats(PlayerDataHandler playerData)
     {

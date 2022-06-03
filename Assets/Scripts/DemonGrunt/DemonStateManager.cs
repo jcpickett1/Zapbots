@@ -18,25 +18,25 @@ public class DemonStateManager : MonoBehaviour
     #region "Variables"
     [SerializeField] private GameObject _myProjectile;
 
-    public Transform Player;
     public Transform LastPlayerPosition;
+    public Transform CastPoint;
+    public Transform Avatar;
+    public Transform Player;
     public Transform Eyes;
     public Transform Head;
-    public Transform Avatar;
-    public Transform CastPoint;
     public NavMeshAgent NavMeshAgent;
     public SpriteManager MyManager;
+    public LayerMask Invisible;
+    public float CurrentHealth;
+    public float FindSpeed;
+    public float MaxHealth;
     public float AimRange;
     public float AimSpeed;
-    public float FindSpeed;
     public float NavSpeed;
-    public float MaxHealth;
-    public float CurrentHealth;
     public bool HasAttention = false;
     public bool IsWalking = false;
     public bool CanShoot = true;
     public bool Spotted = true;
-    public LayerMask Invisible;
     #endregion
 
 
