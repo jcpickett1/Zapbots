@@ -6,14 +6,13 @@ public class DemonProjectile : MonoBehaviour
 {
     private Rigidbody myPhysics;
     public Transform player;
+    public int DamageAmount;
     bool travelling;
 
     // Start is called before the first frame update
     void Start()
     {
         myPhysics = gameObject.GetComponent<Rigidbody>();
-        // player = GameObject.Find("Player").transform;
-        // transform.LookAt(player);
         travelling = true;
     }
 
@@ -36,7 +35,7 @@ public class DemonProjectile : MonoBehaviour
     void OnCollisionEnter(Collision collision)
     {
         if (collision.collider.gameObject == player.gameObject)
-            player.gameObject.GetComponent<PlayerController>().Damage(15);
+            player.gameObject.GetComponent<PlayerStateMachine>().Damage(DamageAmount);
 
         Destroy(gameObject);
     }

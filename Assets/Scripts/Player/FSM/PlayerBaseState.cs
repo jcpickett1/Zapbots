@@ -7,10 +7,13 @@ public abstract class PlayerBaseState
     protected PlayerStateFactory _factory;
     protected PlayerBaseState _currentSuperState;
     protected PlayerBaseState _currentSubState;
+    protected PlayerDataHandler _myData;
+
     public PlayerBaseState(PlayerStateMachine currentContext, PlayerStateFactory playerStateFactory)
     {
         _ctx = currentContext;
         _factory = playerStateFactory;
+        _myData = _ctx.PlayerData;
     }
 
     public abstract void EnterState();

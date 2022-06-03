@@ -8,11 +8,11 @@ public class PlayerGroundedState : PlayerBaseState
     : base (currentContext, playerStateFactory)
     {
         _isRootState = true;
-        InitializeSubState();
     }
 
     public override void EnterState()
     {
+        InitializeSubState();
         _currentSubState.EnterState();
     }
 
@@ -21,13 +21,7 @@ public class PlayerGroundedState : PlayerBaseState
         CheckSwitchStates();
 
         // ground gravity to smooth forces
-        // Debug.Log(_ctx.MyPhysics.velocity.y);
-        // Debug.Log(_ctx.MyPhysics.velocity.y > (_ctx.GlobalGravity * _ctx.GroundedGravity));
-        // Debug.Log(_ctx.MyPhysics.velocity.y);// > (_ctx.GlobalGravity * _ctx.GroundedGravity));
-        // Debug.Log((_ctx.GlobalGravity * _ctx.GroundedGravity));
-        _ctx.MyPhysics.velocity += _ctx.transform.up * _ctx.GlobalGravity * _ctx.GroundedGravity * Time.deltaTime;
-        // if (_ctx.MyPhysics.velocity.y > (_ctx.GlobalGravity * _ctx.GroundedGravity))
-            // _ctx.MyPhysics.velocity = new Vector3( _ctx.MyPhysics.velocity.x, _ctx.GlobalGravity * _ctx.GroundedGravity * Time.deltaTime, _ctx.MyPhysics.velocity.z);
+        _ctx.MyPhysics.velocity += _ctx.transform.up * _myData.GlobalGravity * _myData.GroundedGravity * Time.deltaTime;
     }
 
     public override void ExitState(){}
