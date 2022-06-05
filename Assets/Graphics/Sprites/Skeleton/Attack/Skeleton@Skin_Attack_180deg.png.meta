@@ -1,0 +1,828 @@
+fileFormatVersion: 2
+guid: 483b2a4d97bb9ef4db1104712d7ed46a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3154470301899006058
+    second: Skeleton@Skin_Attack_180deg_0
+  - first:
+      213: 4239718957070749917
+    second: Skeleton@Skin_Attack_180deg_1
+  - first:
+      213: 7056895256869553748
+    second: Skeleton@Skin_Attack_180deg_2
+  - first:
+      213: -2692639121277959083
+    second: Skeleton@Skin_Attack_180deg_3
+  - first:
+      213: 5683105849214287333
+    second: Skeleton@Skin_Attack_180deg_4
+  - first:
+      213: -140051697856607386
+    second: Skeleton@Skin_Attack_180deg_5
+  - first:
+      213: 5124023229381976066
+    second: Skeleton@Skin_Attack_180deg_6
+  - first:
+      213: -3717109016909955850
+    second: Skeleton@Skin_Attack_180deg_7
+  - first:
+      213: 2837593794846653632
+    second: Skeleton@Skin_Attack_180deg_8
+  - first:
+      213: 798157365885525321
+    second: Skeleton@Skin_Attack_180deg_9
+  - first:
+      213: 6345002697109246875
+    second: Skeleton@Skin_Attack_180deg_10
+  - first:
+      213: -2125451925921171165
+    second: Skeleton@Skin_Attack_180deg_11
+  - first:
+      213: -1204116620615850325
+    second: Skeleton@Skin_Attack_180deg_12
+  - first:
+      213: -7179874714171018509
+    second: Skeleton@Skin_Attack_180deg_13
+  - first:
+      213: 1933887823623199410
+    second: Skeleton@Skin_Attack_180deg_14
+  - first:
+      213: -6095087677779755120
+    second: Skeleton@Skin_Attack_180deg_15
+  - first:
+      213: 1480667412338052890
+    second: Skeleton@Skin_Attack_180deg_16
+  - first:
+      213: 794406774634441527
+    second: Skeleton@Skin_Attack_180deg_17
+  - first:
+      213: 3089277566369671662
+    second: Skeleton@Skin_Attack_180deg_18
+  - first:
+      213: 3355371379045582719
+    second: Skeleton@Skin_Attack_180deg_19
+  - first:
+      213: -4411830148359157192
+    second: Skeleton@Skin_Attack_180deg_20
+  - first:
+      213: -1756322996045092352
+    second: Skeleton@Skin_Attack_180deg_21
+  - first:
+      213: 3772565634252022608
+    second: Skeleton@Skin_Attack_180deg_22
+  - first:
+      213: -1868940613282702462
+    second: Skeleton@Skin_Attack_180deg_23
+  - first:
+      213: -2846111607975276509
+    second: Skeleton@Skin_Attack_180deg_24
+  - first:
+      213: -6380996223324760120
+    second: Skeleton@Skin_Attack_180deg_25
+  - first:
+      213: -1053107273722987313
+    second: Skeleton@Skin_Attack_180deg_26
+  - first:
+      213: -3466200812057059834
+    second: Skeleton@Skin_Attack_180deg_27
+  - first:
+      213: 4866161463715648434
+    second: Skeleton@Skin_Attack_180deg_28
+  - first:
+      213: -3517105469665040510
+    second: Skeleton@Skin_Attack_180deg_29
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Skeleton@Skin_Attack_180deg_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1638.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f5ac839f11934d0800000000000000
+      internalID: -3154470301899006058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Attack_180deg_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1638.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd011bfade186da30800000000000000
+      internalID: 4239718957070749917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Attack_180deg_2
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1638.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45649dad8d02fe160800000000000000
+      internalID: 7056895256869553748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Attack_180deg_3
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1638.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55448e34cf2d1aad0800000000000000
+      internalID: -2692639121277959083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Attack_180deg_4
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1638.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5edbc53d8a27ede40800000000000000
+      internalID: 5683105849214287333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Attack_180deg_5
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1638.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b011b09bf6e0ef0800000000000000
+      internalID: -140051697856607386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Attack_180deg_6
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1638.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 200a9289aff2c1740800000000000000
+      internalID: 5124023229381976066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Attack_180deg_7
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 1638.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc3eaf0b0d2a6cc0800000000000000
+      internalID: -3717109016909955850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Attack_180deg_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1229.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ccffaea588216720800000000000000
+      internalID: 2837593794846653632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Attack_180deg_9
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1229.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94dd77c35ef931b00800000000000000
+      internalID: 798157365885525321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Attack_180deg_10
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1229.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b939714f55afd0850800000000000000
+      internalID: 6345002697109246875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Attack_180deg_11
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1229.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3297c480cb0e082e0800000000000000
+      internalID: -2125451925921171165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Attack_180deg_12
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1229.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba66c00305e1a4fe0800000000000000
+      internalID: -1204116620615850325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Attack_180deg_13
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1229.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2f602fcf5fb5c90800000000000000
+      internalID: -7179874714171018509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Attack_180deg_14
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1229.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba938ababc86da10800000000000000
+      internalID: 1933887823623199410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Attack_180deg_15
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 1229.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09fb31bdc06e96ba0800000000000000
+      internalID: -6095087677779755120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Attack_180deg_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 820.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f08e6aa236c8410800000000000000
+      internalID: 1480667412338052890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Attack_180deg_17
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 820.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73bef39a0cc460b00800000000000000
+      internalID: 794406774634441527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Attack_180deg_18
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 820.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee92c0434915fda20800000000000000
+      internalID: 3089277566369671662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Attack_180deg_19
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 820.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f774681ed7ca09e20800000000000000
+      internalID: 3355371379045582719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Attack_180deg_20
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 820.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a81bddad706c2c0800000000000000
+      internalID: -4411830148359157192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Attack_180deg_21
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 820.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ae1ed5a8940a7e0800000000000000
+      internalID: -1756322996045092352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Attack_180deg_22
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 820.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0532079d478da5430800000000000000
+      internalID: 3772565634252022608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Attack_180deg_23
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 820.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28bdbfe0a603016e0800000000000000
+      internalID: -1868940613282702462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Attack_180deg_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 411.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320948762949088d0800000000000000
+      internalID: -2846111607975276509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Attack_180deg_25
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 411.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c75e9b2eb52277a0800000000000000
+      internalID: -6380996223324760120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Attack_180deg_26
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 411.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc7c5f938c9261f0800000000000000
+      internalID: -1053107273722987313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Attack_180deg_27
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 411.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e1b25e9b495efc0800000000000000
+      internalID: -3466200812057059834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Attack_180deg_28
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 411.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b35778b114188340800000000000000
+      internalID: 4866161463715648434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Attack_180deg_29
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 411.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2872803b53bb03fc0800000000000000
+      internalID: -3517105469665040510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b1d5a0c41a2e38f4eb89321145860d6c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

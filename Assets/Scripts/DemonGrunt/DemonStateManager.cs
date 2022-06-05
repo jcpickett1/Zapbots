@@ -7,11 +7,11 @@ public class DemonStateManager : MonoBehaviour
 {
     #region "States"
     private DemonBaseState _currentState;
-
     public DemonBaseState LastState;
+
     public DemonAttackState AttackState = new DemonAttackState();
-    public DemonHuntState HuntState = new DemonHuntState();
     public DemonPatrolState PatrolState = new DemonPatrolState();
+    public DemonHuntState HuntState = new DemonHuntState();
     public DemonIdleState IdleState = new DemonIdleState();
     #endregion
 
@@ -26,6 +26,7 @@ public class DemonStateManager : MonoBehaviour
     public Transform Head;
     public NavMeshAgent NavMeshAgent;
     public SpriteManager MyManager;
+    public AnimationManager MyAnimator;
     public LayerMask Invisible;
     public float CurrentHealth;
     public float FindSpeed;
@@ -40,18 +41,15 @@ public class DemonStateManager : MonoBehaviour
     #endregion
 
 
-    // Start is called before the first frame update
     void Start()
     {
         _currentState = IdleState;
         _currentState.EnterState(this);
         CurrentHealth = MaxHealth;
 
-        // Player = GameObject.Find("Player").transform;
         Eyes.SetParent(null);
     }
 
-    // Update is called once per frame
     void FixedUpdate()
     {
         RaycastHit hit;
@@ -93,7 +91,8 @@ public class DemonStateManager : MonoBehaviour
     public void Shoot()
     {
         CanShoot = false;
-        MyManager.Shoot();
+        MyAnimator.Shoot();
+        // MyManager.Shoot();
         GameObject instance = GameObject.Instantiate(_myProjectile, CastPoint.position, transform.rotation);
         instance.GetComponent<DemonProjectile>().player = Player;
         instance.transform.LookAt(Player.position);

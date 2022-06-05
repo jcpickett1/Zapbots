@@ -20,9 +20,7 @@ public class DemonProjectile : MonoBehaviour
     void FixedUpdate()
     {
         if (travelling)
-        {
             myPhysics.velocity = 1.5f * transform.forward;
-        }
 
         if (transform.InverseTransformPoint(player.position).z > 0)
         {

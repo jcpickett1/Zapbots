@@ -37,9 +37,4 @@ public class DemonHuntState : DemonBaseState
             demon.SwitchState(demon.IdleState);
         }
     }
-
-    public override void OnCollisionEnter(DemonStateManager demon)
-    {
-        
-    }
 }

@@ -35,9 +35,4 @@ public class DemonIdleState : DemonBaseState
             }
         }
     }
-
-    public override void OnCollisionEnter(DemonStateManager demon)
-    {
-        
-    }
 }

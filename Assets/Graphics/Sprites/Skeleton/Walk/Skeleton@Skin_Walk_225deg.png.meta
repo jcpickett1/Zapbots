@@ -1,0 +1,828 @@
+fileFormatVersion: 2
+guid: 16c726fd7da2187429bb9b6a82d694b2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2381603489341641351
+    second: Skeleton@Skin_Walk_225deg_0
+  - first:
+      213: 6095493573473992831
+    second: Skeleton@Skin_Walk_225deg_1
+  - first:
+      213: 8174507019002809570
+    second: Skeleton@Skin_Walk_225deg_2
+  - first:
+      213: 6288243375201638713
+    second: Skeleton@Skin_Walk_225deg_3
+  - first:
+      213: -7383499020442628041
+    second: Skeleton@Skin_Walk_225deg_4
+  - first:
+      213: -203605882368081312
+    second: Skeleton@Skin_Walk_225deg_5
+  - first:
+      213: -5499637750984324990
+    second: Skeleton@Skin_Walk_225deg_6
+  - first:
+      213: -2220830020714418258
+    second: Skeleton@Skin_Walk_225deg_7
+  - first:
+      213: 1855755505887082284
+    second: Skeleton@Skin_Walk_225deg_8
+  - first:
+      213: -8259306891197335938
+    second: Skeleton@Skin_Walk_225deg_9
+  - first:
+      213: -2642186008719690396
+    second: Skeleton@Skin_Walk_225deg_10
+  - first:
+      213: 1913901303268317020
+    second: Skeleton@Skin_Walk_225deg_11
+  - first:
+      213: 1096622034655981552
+    second: Skeleton@Skin_Walk_225deg_12
+  - first:
+      213: 3055200873388554970
+    second: Skeleton@Skin_Walk_225deg_13
+  - first:
+      213: -2480988369698018187
+    second: Skeleton@Skin_Walk_225deg_14
+  - first:
+      213: 1441056164902183326
+    second: Skeleton@Skin_Walk_225deg_15
+  - first:
+      213: -3730528070939973545
+    second: Skeleton@Skin_Walk_225deg_16
+  - first:
+      213: 7285970746442922079
+    second: Skeleton@Skin_Walk_225deg_17
+  - first:
+      213: -2585038860417200810
+    second: Skeleton@Skin_Walk_225deg_18
+  - first:
+      213: 760583624821686996
+    second: Skeleton@Skin_Walk_225deg_19
+  - first:
+      213: 2885353910474478348
+    second: Skeleton@Skin_Walk_225deg_20
+  - first:
+      213: -93900742285054033
+    second: Skeleton@Skin_Walk_225deg_21
+  - first:
+      213: 2971563177389363271
+    second: Skeleton@Skin_Walk_225deg_22
+  - first:
+      213: 2205459219148983861
+    second: Skeleton@Skin_Walk_225deg_23
+  - first:
+      213: 4727441429689446626
+    second: Skeleton@Skin_Walk_225deg_24
+  - first:
+      213: 6583250384322194061
+    second: Skeleton@Skin_Walk_225deg_25
+  - first:
+      213: 3426455372381258512
+    second: Skeleton@Skin_Walk_225deg_26
+  - first:
+      213: 6498581995488026250
+    second: Skeleton@Skin_Walk_225deg_27
+  - first:
+      213: 2422698279351119701
+    second: Skeleton@Skin_Walk_225deg_28
+  - first:
+      213: 2308679249151770666
+    second: Skeleton@Skin_Walk_225deg_29
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Skeleton@Skin_Walk_225deg_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1638.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7821a0a51c72d0120800000000000000
+      internalID: 2381603489341641351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Walk_225deg_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1638.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7008991c1b879450800000000000000
+      internalID: 6095493573473992831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Walk_225deg_2
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1638.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec8999c2dea17170800000000000000
+      internalID: 8174507019002809570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Walk_225deg_3
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1638.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939d8108804544750800000000000000
+      internalID: 6288243375201638713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Walk_225deg_4
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1638.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7309217a2ca888990800000000000000
+      internalID: -7383499020442628041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Walk_225deg_5
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1638.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062454b5785ac2df0800000000000000
+      internalID: -203605882368081312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Walk_225deg_6
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1638.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28840439a9c5da3b0800000000000000
+      internalID: -5499637750984324990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Walk_225deg_7
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 1638.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf2bc4dcd60e21e0800000000000000
+      internalID: -2220830020714418258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Walk_225deg_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1229.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c27ff56ecc7f0c910800000000000000
+      internalID: 1855755505887082284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Walk_225deg_9
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1229.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e763f33642c016d80800000000000000
+      internalID: -8259306891197335938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Walk_225deg_10
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1229.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46571cfe2d1155bd0800000000000000
+      internalID: -2642186008719690396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Walk_225deg_11
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1229.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c571774581b8f8a10800000000000000
+      internalID: 1913901303268317020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Walk_225deg_12
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1229.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff298c2eebf73f00800000000000000
+      internalID: 1096622034655981552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Walk_225deg_13
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1229.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adab9c7d101466a20800000000000000
+      internalID: 3055200873388554970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Walk_225deg_14
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1229.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c264cf832c19dd0800000000000000
+      internalID: -2480988369698018187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Walk_225deg_15
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 1229.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e91a16a62f8aff310800000000000000
+      internalID: 1441056164902183326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Walk_225deg_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 820.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758eff21c708a3cc0800000000000000
+      internalID: -3730528070939973545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Walk_225deg_17
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 820.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f583e998ac7fc1560800000000000000
+      internalID: 7285970746442922079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Walk_225deg_18
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 820.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65d80424ad8102cd0800000000000000
+      internalID: -2585038860417200810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Walk_225deg_19
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 820.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2c97be6c22e8a00800000000000000
+      internalID: 760583624821686996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Walk_225deg_20
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 820.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c039d152816da0820800000000000000
+      internalID: 2885353910474478348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Walk_225deg_21
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 820.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf24fbb5c562bef0800000000000000
+      internalID: -93900742285054033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Walk_225deg_22
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 820.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7409cef37fc1d3920800000000000000
+      internalID: 2971563177389363271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Walk_225deg_23
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 820.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e4cfb897d5b9e10800000000000000
+      internalID: 2205459219148983861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Walk_225deg_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 411.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e0ba19eeee3b9140800000000000000
+      internalID: 4727441429689446626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Walk_225deg_25
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 411.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a6af058576c5b50800000000000000
+      internalID: 6583250384322194061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Walk_225deg_26
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 411.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013838dc1073d8f20800000000000000
+      internalID: 3426455372381258512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Walk_225deg_27
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 411.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e10d8d4e99f2a50800000000000000
+      internalID: 6498581995488026250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Walk_225deg_28
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 411.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f6ca2cf372f9120800000000000000
+      internalID: 2422698279351119701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton@Skin_Walk_225deg_29
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 411.4
+        width: 512
+        height: 409.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20c1029b831a0020800000000000000
+      internalID: 2308679249151770666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 4dd98a98faeb91e45ba422f020b35f4d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

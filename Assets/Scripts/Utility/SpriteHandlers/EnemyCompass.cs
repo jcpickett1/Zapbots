@@ -6,7 +6,7 @@ public class EnemyCompass : MonoBehaviour
 {
     private Transform _player;
     public enum Direction {Fore, Rear, Right, Left, ForeRight, ForeLeft, RearRight, RearLeft};
-    public Direction _myDirection = Direction.Fore;
+    public Direction MyDirection = Direction.Fore;
 
 
     // Start is called before the first frame update
@@ -26,22 +26,22 @@ public class EnemyCompass : MonoBehaviour
 
 
         if (angle < 22.5f && angle > -22.5f)
-            _myDirection = Direction.Fore;
+            MyDirection = Direction.Fore;
         else if (angle < 67.5f && angle > 22.5f)
-            _myDirection = Direction.ForeRight;
+            MyDirection = Direction.ForeRight;
         else if (angle < 112.5f && angle > 67.5f)
-            _myDirection = Direction.Right;
+            MyDirection = Direction.Right;
         else if (angle < 157.5f && angle > 112.5f)
-            _myDirection = Direction.RearRight;
+            MyDirection = Direction.RearRight;
         else if (angle < -157.5f)
-            _myDirection = Direction.Rear;
+            MyDirection = Direction.Rear;
         else if (angle > 157.5f)
-            _myDirection = Direction.Rear;
+            MyDirection = Direction.Rear;
         else if (angle < -112.5f && angle > -157.5f)
-            _myDirection = Direction.RearLeft;
+            MyDirection = Direction.RearLeft;
         else if (angle < -67.5f && angle > -112.5f)
-            _myDirection = Direction.Left;
+            MyDirection = Direction.Left;
         else if (angle < -22.5f && angle > -67.5f)
-            _myDirection = Direction.ForeLeft;
+            MyDirection = Direction.ForeLeft;
     }
 }

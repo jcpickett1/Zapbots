@@ -22,6 +22,7 @@ public class EnemyBrain : MonoBehaviour
 
     [SerializeField] private NavMeshAgent navMeshAgent;
     [SerializeField] private SpriteManager _myManager;
+    [SerializeField] private AnimationManager MyAnimator;
     [SerializeField] private GameObject _myProjectile;
 
     // Start is called before the first frame update
@@ -99,7 +100,8 @@ public class EnemyBrain : MonoBehaviour
     void Shoot()
     {
         canShoot = false;
-        _myManager.Shoot();
+        // _myManager.Shoot();
+        MyAnimator.Shoot();
         GameObject.Instantiate(_myProjectile, transform.position + transform.forward, transform.rotation);
         StartCoroutine(Reload());
     }

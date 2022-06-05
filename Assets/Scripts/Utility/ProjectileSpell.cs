@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class ProjectileSpell : MonoBehaviour
 {
-    public float Speed;
-    public float Damage;
     public string Element;
+    public float Damage;
+    public float Speed;
 
     [SerializeField] private Rigidbody _myPhysics;
 

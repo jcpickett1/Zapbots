@@ -13,12 +13,12 @@ public class SpellGauntlet : MonoBehaviour
 
     private Dictionary<SpellData, GameObject> _spellBases = new Dictionary<SpellData, GameObject>();
     private PlayerStateMachine _player;
-    private Transform _firingLine;
     private SpellData _selectedSpell;
+    private Transform _firingLine;
     private SpellData[] _spells;
+    private int _selectedIndex = 0;
     private bool _charged = true;
     private bool _canSwap = true;
-    private int _selectedIndex = 0;
     private int _mouseButton;
 
     public SpellData[] GetSpells { get { return _spells; }}
