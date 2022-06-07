@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using static EnemyCompass;
 
+
 public class SpriteManager : MonoBehaviour
 {
     [SerializeField] private SpriteRenderer _myRenderer;
@@ -11,8 +12,10 @@ public class SpriteManager : MonoBehaviour
 
     private Direction[] directions = new Direction[] { Direction.Fore, Direction.ForeRight, Direction.Right, Direction.RearRight, Direction.Rear, Direction.RearLeft, Direction.Left, Direction.ForeLeft};
     private Dictionary<Direction, Sprite> idleDict = new Dictionary<Direction, Sprite>();
+    private Direction _lastDirection;
+    private bool _active = false;
 
-    // Start is called before the first frame update
+
     void Start()
     {
         for (int i = 0; i < directions.Length; i++)
@@ -21,9 +24,33 @@ public class SpriteManager : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
     void Update()
     {
-        _myRenderer.sprite = idleDict[_myCompass.MyDirection];
+        if (_active)
+        {
+            if (_lastDirection != _myCompass.MyDirection)
+            {
+                _lastDirection = _myCompass.MyDirection;
+                if (_lastDirection == Direction.Far)
+                {
+                    _myRenderer.enabled = false;
+                }
+                else
+                {
+                    _myRenderer.enabled = true;
+                    _myRenderer.sprite = idleDict[_lastDirection];
+                }
+            }
+        }
+    }
+
+    void OnBecameVisible()
+    {
+        _active = true;
+    }
+
+    void OnBecameInvisible()
+    {
+        _active = false;
     }
 }

@@ -45,6 +45,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2790bf103521704f9db0c22b81e51cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _myRenderer: {fileID: 3002456734424834846}
+  _myCompass: {fileID: 3002456735493420439}
   idleSprites:
   - {fileID: -3269372843259406535, guid: f50012b79b47a0c479081b94713fe9d3, type: 3}
   - {fileID: -5977338550060382155, guid: f50012b79b47a0c479081b94713fe9d3, type: 3}
@@ -54,8 +56,6 @@ MonoBehaviour:
   - {fileID: -4861281357655151934, guid: f50012b79b47a0c479081b94713fe9d3, type: 3}
   - {fileID: -3184079606220059883, guid: f50012b79b47a0c479081b94713fe9d3, type: 3}
   - {fileID: 4355498954810024914, guid: f50012b79b47a0c479081b94713fe9d3, type: 3}
-  _myCompass: {fileID: 3002456735493420439}
-  _myRenderer: {fileID: 3002456734424834846}
 --- !u!212 &3002456734424834846
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -114,7 +114,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3002456734424834843}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a3d52f27605e43843a1cd6737e476c1b, type: 3}
   m_Name: 

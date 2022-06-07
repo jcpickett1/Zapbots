@@ -57,6 +57,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2790bf103521704f9db0c22b81e51cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _myRenderer: {fileID: 2486084694175417782}
+  _myCompass: {fileID: 2486084695197016417}
   idleSprites:
   - {fileID: 3243317595483693607, guid: 36e056099d9361b49b596a2409530747, type: 3}
   - {fileID: -2340166893500943651, guid: 36e056099d9361b49b596a2409530747, type: 3}
@@ -66,8 +68,6 @@ MonoBehaviour:
   - {fileID: -4976392474774789161, guid: 36e056099d9361b49b596a2409530747, type: 3}
   - {fileID: 56329594573693552, guid: 36e056099d9361b49b596a2409530747, type: 3}
   - {fileID: 6439442225737133009, guid: 36e056099d9361b49b596a2409530747, type: 3}
-  _myCompass: {fileID: 2486084695197016417}
-  _myRenderer: {fileID: 2486084694175417782}
 --- !u!212 &2486084694175417782
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -164,3 +164,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MyDirection: 0
+  MyRenderer: {fileID: 2486084694175417782}
